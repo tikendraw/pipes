@@ -1,7 +1,9 @@
 # Files/Folders
 .cache
-./weights
-./out/*
+weights
+out/
+logs/
+videos/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
