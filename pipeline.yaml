@@ -1,0 +1,16 @@
+frame_sampler:
+  fps: 1
+  out_dir: .cache/frames
+
+yolo_face:
+  model: ./weights/yolov8n_face/yolov8n-face.pt
+  conf: 0.5
+
+face_filter:
+  min_face_pct: 4
+  max_faces_per_frame: 1
+
+export_crops:
+  out_dir: ./out/faces
+  size: [224, 224]
+  margin_pct: 15
